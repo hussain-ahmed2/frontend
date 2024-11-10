@@ -4,7 +4,7 @@ import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 
 const About = () => {
     return (
-        <section id="about" className="p-3 bg-neutral-400 rounded-lg">
+        <section id="about" className="p-5 bg-neutral-400 rounded-lg">
             <h1 className="text-center text-4xl font-extrabold font-mono">About Me</h1>
             <p className="pt-2">
                 Hi, I’m Hussain Ahmed – a passionate Frontend Developer with a flair for creating visually appealing, 

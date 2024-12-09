@@ -30,7 +30,7 @@ const Contact = () => {
                 <p className="text-lg mb-8 text-center">
                     I{"'"}d love to hear from you! Feel free to reach out.
                 </p>
-                <form onSubmit={handleSubmit} className="space-y-6 p-4 mx-4 bg-neutral-500 rounded-md">
+                <form onSubmit={handleSubmit} className="space-y-6 p-8 mx-4 bg-neutral-500 rounded-md">
                     <div>
                         <label htmlFor="name" className="block font-semibold">
                             Name
@@ -41,8 +41,9 @@ const Contact = () => {
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
-                            className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-900"
+                            className="w-full px-4 py-2 mt-2 border bg-gray-300 border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-900"
                             required
+                            placeholder="Enter your name"
                         />
                     </div>
                     <div>
@@ -55,8 +56,9 @@ const Contact = () => {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-900"
+                            className="w-full px-4 py-2 mt-2 border bg-gray-300 border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-900"
                             required
+                            placeholder="Enter your email"
                         />
                     </div>
                     <div>
@@ -69,8 +71,9 @@ const Contact = () => {
                             value={formData.message}
                             onChange={handleChange}
                             rows="4"
-                            className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-900"
+                            className="w-full px-4 py-2 mt-2 border bg-gray-300 border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-900"
                             required
+                            placeholder="Enter your message"
                         ></textarea>
                     </div>
                     <button

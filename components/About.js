@@ -1,6 +1,7 @@
 "use client";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGitAlt } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 
 const About = () => {
     return (
@@ -20,6 +21,7 @@ const About = () => {
                         <FaHtml5 fill="#f06529" />
                         <FaCss3Alt fill="#2965f1" />
                         <FaJs fill="#f0db4f"  />
+                        <SiTypescript className="scale-[.875]" fill="#007acc" />
                     </div>
                 </div>
                 <div className="flex items-center gap-5">
